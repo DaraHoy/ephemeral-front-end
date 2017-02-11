@@ -7,5 +7,6 @@
           $scope.entrees = EntreesFactory.query();
         }
 
+      function() {console.log('Entree Controller');}
 
 })();

@@ -6,20 +6,22 @@
     <!-- Angular Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-resource.min.js"></script>
+    <!-- Main App -->
+    <script src="app/components/app/app.js"></script>
+    <!-- Entrees Components -->
+    <script src="app/components/entrees/entrees.module.js"></script>
+    <script src="app/components/entrees/entrees.factory.js"></script>
+    <script src="app/components/entrees/entrees.controllers.js"></script>
+    <script src="app/components/entrees/entrees.routes.js"></script>
   </head>
   <body>
 
     <!-- ui-view loading mystery view -->
-    <div ui-view></div>
-    
-    <!-- Main App -->
-    <script src="./app/components/app/app.js"></script>
-    <!-- Entrees Components -->
-    <script src="./app/components/entrees/entrees.module.js"></script>
-    <script src="./app/components/entrees/entrees.factory.js"></script>
-    <script src="./app/components/entrees/entrees.controllers.js"></script>
-    <script src="./app/components/entrees/entrees.routes.js"></script>
+    <ui-view></ui-view>
+
+
+
   </body>
 </html>
