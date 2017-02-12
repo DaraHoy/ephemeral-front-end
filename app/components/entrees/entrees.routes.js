@@ -7,7 +7,7 @@
       $stateProvider
         .state('entreesIndex', {
           url: '/entrees',
-          templateUrl : 'partials/entreesIndex.html',
+          templateUrl : 'app/components/entrees/entreesIndex.html',
           controller  : 'entreesIndexCtrl',
           controllerAs: 'vm'
         });
